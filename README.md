@@ -6,8 +6,8 @@ Slack Exelate Bot: slack-exelatebot
     a. rtmbot.conf
     b. plugins/marco-polo.py
 4. Install requirements: pip install -r requirements.txt
-5. Run script on terminal: ./rtmbot.py
-6. Talk to bot
+5. Run script on terminal: ./rtmbot.py 2>&1 >output.log
+6. Greet bot or say marco/polo
 
 Using library: python-rtmbot, slack-client
 -----------
